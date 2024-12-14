@@ -1,0 +1,196 @@
+body {
+    background-color: #FDFDFB;
+    margin:0;
+    padding:0
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 48px;
+    padding-left: 48px;
+    border-bottom: 5px solid #00000000 ;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding-top: 10px;
+    align-items: center;
+}
+
+.mylogo {
+    font-family: "Source Serif 4", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 42px;
+    letter-spacing: -4%;
+    color:#26281B;
+}
+
+.nav a {
+    text-decoration: none;
+    font-family: "Domine", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -2%;
+    color: #26281B;
+    margin:0 15px;
+}
+
+.nav a:hover {
+    border-bottom: 2px solid darkgreen;
+}
+
+.text {
+    height: 240px;
+    width: 1344px;
+    font-family: "Domine", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 120px;
+    line-height: 120px;
+    letter-spacing: -2%;
+    text-align: center;
+    color: #26281B;
+    padding-bottom:40px;
+}
+
+.text p:hover {
+    color:darkslategray;
+}
+
+main{
+    padding-left:48px ;
+    padding-right: 48px;
+}
+
+.img img{
+    border-radius: 28px;
+}
+
+.image-container{
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3,4fr);
+}
+.image-container img{
+    width:413.33px;
+    height: 275px;
+    border-radius: 18px;
+}
+
+.image-container p{
+    font-family: "Outfit";
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color:#26281B;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.image-container p:hover {
+    color:seagreen;
+}
+
+.image-container span{
+    font-family: "Outfit";
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    color:#2A2E159E;
+}
+
+.image-container .dv{
+    margin-bottom: 40px;
+    margin-left: 30px;
+}
+
+.para p{
+    width:900px;
+    height: 364px;
+    font-family: "Domine", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 52px;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: -2%;
+    color:#26281B;
+}
+
+.para{
+    margin-left: 250px;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.contact p{
+    font-family: "Domine", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -2%;
+    color:#26281B;
+}
+
+.contact .p2{
+    font-family: "Outfit";
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    color:#2A2E159E;
+    width: 640px;
+    height:56px;
+}
+
+footer{
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright p {
+    font-family: "Domine", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -2%;
+    color:#2A2E159E;
+}
+
+.copyright button {
+    background-color: white;
+    font-family: "Outfit";
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color:#26281B;
+    width: 154px;
+    height: 52px;
+    border-radius: 16px;
+    border:1.5px solid#686E4933;
+}
+
+
+
+
